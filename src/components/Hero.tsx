@@ -24,14 +24,14 @@ export default function Hero() {
           </p>
           <div className="flex space-x-4">
             <a 
-              href="properties" 
+              href="/website-host/properties" 
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors"
             >
               View Properties
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
             <a 
-              href="contact" 
+              href="/website-host/contact" 
               className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-100 text-gray-900 rounded-lg font-semibold transition-colors"
             >
               Contact Us
