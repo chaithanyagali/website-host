@@ -10,10 +10,10 @@ function App() {
     <Router>
       <div className="min-h-screen bg-white">
         <Navbar />
+        <Hero />
         <Routes>
-          <Route path="/website-host/" element={<Hero />} />
-          <Route path="/website-host/properties/" element={<Properties />} />
-          <Route path="/website-host/contact/" element={<Contact />} />
+          <Route path="properties" element={<Properties />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
         <footer className="bg-gray-900 text-white py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,10 +27,8 @@ function App() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                 <ul className="space-y-2">
-                  <li><a href="#home" className="text-gray-400 hover:text-white">Home</a></li>
-                  <li><a href="/properties" className="text-gray-400 hover:text-white">Properties</a></li>
-                  <li><a href="#about" className="text-gray-400 hover:text-white">About</a></li>
-                  <li><a href="/contact" className="text-gray-400 hover:text-white">Contact</a></li>
+                  <li><a href="properties" className="text-gray-400 hover:text-white">Properties</a></li>
+                  <li><a href="contact" className="text-gray-400 hover:text-white">Contact</a></li>
                 </ul>
               </div>
               <div>
