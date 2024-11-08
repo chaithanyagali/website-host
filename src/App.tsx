@@ -10,8 +10,8 @@ function App() {
     <Router>
       <div className="min-h-screen bg-white">
         <Navbar />
+        <Hero />
         <Routes>
-          <Route path="/" element={<Hero />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
