@@ -31,7 +31,7 @@ export default function Hero() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
             <a 
-              href="/wesite-host/contact/" 
+              href="/website-host/contact/" 
               className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-100 text-gray-900 rounded-lg font-semibold transition-colors"
             >
               Contact Us
