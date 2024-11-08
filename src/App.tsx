@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website-host">
       <div className="min-h-screen bg-white">
         <Navbar />
         <Hero />
