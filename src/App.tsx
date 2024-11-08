@@ -11,9 +11,9 @@ function App() {
       <div className="min-h-screen bg-white">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/properties" element={<Properties />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/website-host/" element={<Hero />} />
+          <Route path="/website-host/properties" element={<Properties />} />
+          <Route path="/website-host/contact" element={<Contact />} />
         </Routes>
         <footer className="bg-gray-900 text-white py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
